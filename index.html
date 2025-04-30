@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROAST-WORLD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L75W5YEHYL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-L75W5YEHYL');
+    </script>
+</head>
+<body>
+    <!-- Toast Container -->
+    <div id="toastContainer"></div>
+
+    <!-- Loading Animation -->
+    <div id="loadingAnimation" class="loading-animation">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Generating your roast...</p>
+            <p class="loading-subtext">AI is thinking of something spicy 🔥</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to ROAST-WORLD</h1>
+        
+        <!-- Login/Signup Form -->
+        <div class="auth-container" id="authContainer">
+            <h2>Join the Roast Revolution</h2>
+            <form id="authForm">
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Your Username" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-heart"></i>
+                    <input type="text" id="hobby" placeholder="Your Hobby" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-code"></i>
+                    <input type="text" id="skills" placeholder="Your Skills (e.g., JavaScript, Python)" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-graduation-cap"></i>
+                    <input type="text" id="studies" placeholder="What are you studying?" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-briefcase"></i>
+                    <input type="text" id="work" placeholder="Your Profession" required>
+                </div>
+                <button type="submit" class="start-button">
+                    <span>Start Roasting</span>
+                    <i class="fas fa-fire"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Main Game Container (Initially Hidden) -->
+        <div class="game-container" id="gameContainer" style="display: none;">
+            <div class="mode-buttons">
+                <button id="fireMode" class="mode-button">🔥 Fire Mode 🔥</button>
+                <button id="battleMode" class="mode-button">⚔️ Battle Mode ⚔️</button>
+            </div>
+
+            <div class="roast-container">
+                <button id="generateRoast" class="roast-button">Generate Roast</button>
+                <div id="roastDisplay"></div>
+            </div>
+
+            <!-- Battle Mode Container -->
+            <div class="battle-container" id="battleContainer">
+                <h2>⚔️ Battle Arena ⚔️</h2>
+                <div class="battle-players">
+                    <div class="battle-player" id="player1">
+                        <h3>You</h3>
+                        <div class="battle-roast" id="playerRoast"></div>
+                    </div>
+                    <div class="battle-player" id="player2">
+                        <h3>Opponent</h3>
+                        <div class="battle-roast" id="opponentRoast"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leaderboard Section -->
+            <div class="leaderboard">
+                <h2>🔥 Top Roasters 🔥</h2>
+                <div id="leaderboardList">
+                    <!-- Leaderboard items will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

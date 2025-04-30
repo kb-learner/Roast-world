@@ -1,0 +1,93 @@
+{
+    "starts": [
+        "You're as sharp as",
+        "You're as useful as",
+        "You're dumber than",
+        "You're slower than",
+        "You're more confusing than",
+        "You're as reliable as",
+        "You're as organized as",
+        "You're as clear as",
+        "You're as efficient as",
+        "You're as helpful as",
+        "You're as bright as",
+        "You're as quick as",
+        "You're as focused as",
+        "You're as consistent as",
+        "You're as predictable as"
+    ],
+    "middles": [
+        "a broken keyboard",
+        "a wet matchstick",
+        "a WiFi without internet",
+        "a calculator with dead batteries",
+        "a GPS in a tunnel",
+        "a printer out of ink",
+        "a phone with no signal",
+        "a computer with Windows ME",
+        "a dictionary in a foreign language",
+        "a compass in a magnet factory",
+        "a screen with dead pixels",
+        "a mouse with a broken wheel",
+        "a keyboard missing the spacebar",
+        "a monitor with a cracked screen",
+        "a router that keeps resetting"
+    ],
+    "ends": [
+        "during finals.",
+        "at a coding competition.",
+        "on live TV.",
+        "in a job interview.",
+        "during a presentation.",
+        "at a family dinner.",
+        "on a first date.",
+        "in a math exam.",
+        "during a speech.",
+        "at a spelling bee.",
+        "in a tech support call.",
+        "during a system update.",
+        "at a hackathon.",
+        "in a debugging session.",
+        "during a code review."
+    ],
+    "techStarts": [
+        "Your code is as clean as",
+        "Your debugging skills are like",
+        "Your error handling is as good as",
+        "Your documentation is as clear as",
+        "Your commits are as organized as"
+    ],
+    "techMiddles": [
+        "a spaghetti codebase",
+        "a memory leak in production",
+        "an infinite loop",
+        "a stack overflow error",
+        "a race condition"
+    ],
+    "techEnds": [
+        "in a legacy system.",
+        "during a production deployment.",
+        "at 3 AM on a weekend.",
+        "with the CEO watching.",
+        "during a critical demo."
+    ],
+    "soundEffects": {
+        "laugh": "sounds/laugh.mp3",
+        "boo": "sounds/boo.mp3",
+        "applause": "sounds/applause.mp3",
+        "burn": "sounds/burn.mp3",
+        "roast": "sounds/roast.mp3"
+    },
+    "categories": {
+        "general": {
+            "starts": "starts",
+            "middles": "middles",
+            "ends": "ends"
+        },
+        "tech": {
+            "starts": "techStarts",
+            "middles": "techMiddles",
+            "ends": "techEnds"
+        }
+    }
+} 
